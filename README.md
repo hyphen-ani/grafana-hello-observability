@@ -69,20 +69,20 @@ This will spin up:
 * Grafana at <u>http://localhost:3000</u>
 
 Grafana Dashboard Setup
-	1. Open http://localhost:3000
-	2. Log in with:
-		• Username: admin
-		• Password: admin
-	3. Add Prometheus as a data source:
-		• URL: http://prometheus:9090
-	4. Import a dashboard:
-		• Go to “Dashboards” → “Import”
-		• Use dashboard ID: 4701 (Micrometer JVM metrics)
-	5. Start exploring key metrics:
-		• JVM Memory usage
-		• HTTP request counts
-		• Response times
-		• Uptime, Threads, Garbage Collection stats
+1. Open http://localhost:3000
+2. Log in with:
+	* Username: admin
+	* Password: admin
+3. Add Prometheus as a data source:
+	* URL: http://prometheus:9090
+4. Import a dashboard:
+	* Go to “Dashboards” → “Import”
+	* Use dashboard ID: 4701 (Micrometer JVM metrics)
+5. Start exploring key metrics:
+	* JVM Memory usage
+	* HTTP request counts
+	* Response times
+	* Uptime, Threads, Garbage Collection stats
 
 ### Prometheus Configuration (prometheus.yml)
 
@@ -102,10 +102,10 @@ scrape_configs:
 ### Purpose of This Project
 
 This project was built to:
-	•	✅ Understand the basics of application observability
-	•	✅ Learn how to expose metrics from a Java app using Micrometer
-	•	✅ Use Prometheus to scrape and collect data
-	•	✅ Build beautiful, real-time dashboards using Grafana
+* Understand the basics of application observability
+* Learn how to expose metrics from a Java app using Micrometer
+* Use Prometheus to scrape and collect data
+* Build beautiful, real-time dashboards using Grafana
 
 ### Credits
 
