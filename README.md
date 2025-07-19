@@ -26,14 +26,16 @@ This project is a demonstration of integrating **Spring Boot**, **Prometheus**, 
 ---
 
 ## Configurations
-
-	•	Prometheus: http://localhost:9090
-	•	Grafana: http://localhost:3000
-	•	Username: admin
-	•	Password: admin
+	Prometheus:
+ 		• http://localhost:9090
+  	Grafana:
+		• http://localhost:3000
+	Username: admin
+	Password: admin
 
 ## Access Metrics
-	•	Actuator metrics endpoint: http://localhost:8080/actuator/prometheus
+	Actuator metrics endpoint: 
+ 	• http://localhost:8080/actuator/prometheus
 
 ## Grafana Dashboards
 	1.	Open Grafana http://localhost:3000
